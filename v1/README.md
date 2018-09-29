@@ -1,12 +1,12 @@
-#1Chương trình từ điển bằng java
-#2Phiên bản 1.0: phiên bản từ điển command line sơ khai
-#3Chức năng chính: 
+# Chương trình từ điển bằng java
+## Phiên bản 1.0: phiên bản từ điển command line sơ khai
+### Chức năng chính: 
 Nhập từ tiếng anh và nghĩa trên cửa sổ console
 In ra toàn bộ danh sách từ trong từ điển
-#3Yêu cầu để chạy được chương trình:
+### Yêu cầu để chạy được chương trình:
 Máy bạn phải cài java
 Các file trong source code phải được đặt cùng trong 1 thư mục
-#3Cách chạy: 
+### Cách chạy: 
 Vào thư mục chứa source code bật Terminal của máy bạn lên
 Gõ lệnh sau:
 ```sh
@@ -19,8 +19,8 @@ java Main
 ```
 Máy ảo java sẽ dịch các file bytecode này thành mã máy phù hợp với từng hệ điều hành mà bạn dùng, lúc này bạn có thể test thử chương trình rồi ^^
 
-#1Team: C&C
-#1Author:
+# Team: C&C
+# Author:
 <ul>
 <li>Trần Mạnh Cường https://github.com/maytinhdibo</li>
 <li>Kiều Chí Công https://github.com/kieuchicong99</li>
