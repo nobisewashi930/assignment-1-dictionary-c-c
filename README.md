@@ -1,5 +1,5 @@
 # Chương trình từ điển bằng java
-## *Phiên bản 1.0: phiên bản từ điển command line sơ khai 
+## **1.Phiên bản 1.0:** phiên bản từ điển command line sơ khai 
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v1
 ### Chức năng chính: 
 Nhập từ tiếng anh và nghĩa trên cửa sổ console
@@ -24,15 +24,29 @@ java Main
 ```
 Máy ảo java sẽ dịch các file bytecode này thành mã máy phù hợp với từng hệ điều hành mà bạn dùng, lúc này bạn có thể test thử chương trình rồi ^^
 
-## *Phiên bản 2.0: phiên bản từ điển command line cải tiến lần 1
+## **2.Phiên bản 2.0:** phiên bản từ điển command line cải tiến lần 1
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v2
-## *Phiên bản 3.0: phiên bản từ điển command line cải tiến lần 2
+###Chức năng chính: 
+Có các chức năng như phiên bản 1.0
+
+Bổ sung thêm:
+<ul>
+<li>Tính năng chèn dữ liệu cho từ điển bằng file txt</li>
+<li>Tính năng tra từ có trong từ điển</li>
+</ul>
+
+###Yêu cầu để chạy được chương trình:
+Giống phiên bản 1
+###Cách chạy: 
+Giống phiên bản 1
+
+## **3.Phiên bản 3.0:** phiên bản từ điển command line cải tiến lần 2
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v3
-## *Phiên bản 4.0: phiên bản từ điển giao diện đồ họa sơ khai
+## **4.Phiên bản 4.0:** phiên bản từ điển giao diện đồ họa sơ khai
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v4
-## *Phiên bản 5.0: phiên bản từ điển giao diện đồ họa nâng cao 
+## **5.Phiên bản 5.0:** phiên bản từ điển giao diện đồ họa nâng cao 
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v5
-## *Phiên bản 6.0: phiên bản từ điển giao diện đồ họa cao cấp
+## **6.Phiên bản 6.0:** phiên bản từ điển giao diện đồ họa cao cấp
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v6
 
 # Team: C&C
