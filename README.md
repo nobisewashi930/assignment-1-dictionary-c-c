@@ -26,7 +26,7 @@ Máy ảo java sẽ dịch các file bytecode này thành mã máy phù hợp v�
 
 ## **2.Phiên bản 2.0:** phiên bản từ điển command line cải tiến lần 1
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v2
-###Chức năng chính: 
+### Chức năng chính: 
 Có các chức năng như phiên bản 1.0
 
 Bổ sung thêm:
@@ -35,9 +35,9 @@ Bổ sung thêm:
 <li>Tính năng tra từ có trong từ điển</li>
 </ul>
 
-###Yêu cầu để chạy được chương trình:
+### Yêu cầu để chạy được chương trình:
 Giống phiên bản 1
-###Cách chạy: 
+### Cách chạy: 
 Giống phiên bản 1
 
 ## **3.Phiên bản 3.0:** phiên bản từ điển command line cải tiến lần 2
