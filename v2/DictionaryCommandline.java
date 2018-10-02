@@ -5,6 +5,9 @@
  * @version 1.0
  * 
  */
+import java.util.Scanner;
+
+
 public class DictionaryCommandline{
     /**
      * Hien thi toan bo tu trong Dictionary
@@ -27,8 +30,31 @@ public class DictionaryCommandline{
      * @param dict
      */
     public void dictionaryBasic(DictionaryManagement management, Dictionary dict){
-        dict = management.insertFromCommandline();        
-        this.showAllWords(dict);
+        System.out.println("*************C&C Dictionary*************");
+        System.out.println("");
+        System.out.println("VUI LONG SU DUNG CAC LENH DUOI DAY");
+        System.out.println("0: Thoat ung dung");
+        System.out.println("1: Them tu vao tu dien");
+        System.out.println("2: Hien thi danh sach tu");
+        
+        Scanner reader = new Scanner(System.in);
+        char c = reader.next().charAt(0);
+
+        switch (c) {
+            case '0':
+                System.out.println("Dang thoat ung dung");
+                return;
+            case '1':
+                dict = management.insertFromCommandline();  
+                break;
+            case '2':
+            this.showAllWords(dict);  
+                break;    
+            default:
+                break;
+        }
+        System.out.println("");
+        dictionaryBasic( management,  dict);
     }
 
     /**
