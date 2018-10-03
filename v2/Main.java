@@ -11,6 +11,7 @@ public class Main{
         DictionaryManagement management = new DictionaryManagement();
         Dictionary dict = new Dictionary();
         DictionaryCommandline dc = new DictionaryCommandline();
-        dc.dictionaryBasic(management, dict);
+        // dc.dictionaryBasic(management, dict);
+        dc.dictionaryAdvanced(management, dict);
     }
 }

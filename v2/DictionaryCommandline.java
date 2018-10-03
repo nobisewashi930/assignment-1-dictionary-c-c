@@ -66,8 +66,34 @@ public class DictionaryCommandline{
      * @param dict
      */
     public void dictionaryAdvanced(DictionaryManagement management, Dictionary dict){
-        dict = management.insertFromFile();
-        this.showAllWords(dict);
-        management.dictionaryLookup(dict);
+        System.out.println("*************C&C Dictionary V2*************");
+        System.out.println("");
+        System.out.println("VUI LONG SU DUNG CAC LENH DUOI DAY");
+        System.out.println("0: Thoat ung dung");
+        System.out.println("1: Them tu vao tu dien bang file");
+        System.out.println("2: Hien thi danh sach tu");
+        System.out.println("3: Tim kiem tu");
+        
+        Scanner reader = new Scanner(System.in);
+        char c = reader.next().charAt(0);
+
+        switch (c) {
+            case '0':
+                System.out.println("Dang thoat ung dung");
+                return;
+            case '1':
+                dict = management.insertFromFile();
+                break;
+            case '2':
+            this.showAllWords(dict);  
+                break;    
+                case '3':
+                management.dictionaryLookup(dict);
+                break;   
+            default:
+                break;
+        }
+        System.out.println("");
+        dictionaryAdvanced( management,  dict);
     }
 }
