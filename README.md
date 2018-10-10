@@ -42,6 +42,20 @@ Giống phiên bản 1
 
 ## **3.Phiên bản 3.0:** phiên bản từ điển command line cải tiến lần 2
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v3
+### Chức năng chính: 
+Có các chức năng như phiên bản 1.0
+
+Bổ sung thêm:
+<ul>
+<li>Thêm các chức năng thêm sửa xóa dữ liệu bằng commandline</li>
+<li>Tính năng tìm kiếm các từ 1 cách tương đối</li>
+<li>Tính năng xuất dữ liệu từ điển hiện tại ra file text</li>
+</ul>
+
+### Yêu cầu để chạy được chương trình:
+Giống phiên bản 1
+### Cách chạy: 
+Giống phiên bản 1
 ## **4.Phiên bản 4.0:** phiên bản từ điển giao diện đồ họa sơ khai
 ### Source code: https://github.com/UET-INT2204-12-fall-18/assignment-1-dictionary-c-c/tree/master/v4
 ## **5.Phiên bản 5.0:** phiên bản từ điển giao diện đồ họa nâng cao 
