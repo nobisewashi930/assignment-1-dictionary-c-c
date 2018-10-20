@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="368.0" minWidth="537.0" prefHeight="435.0" prefWidth="670.0" style="-fx-border-color: #1565C0; -fx-border-width: 2; -fx-background-color: #f5f5f5;" stylesheets="@../css/index.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="candc.Pragraph">
+    <top>
+        <BorderPane prefHeight="83.0" prefWidth="666.0" style="-fx-background-color: #1565C0;" BorderPane.alignment="CENTER">
+            <center>
+                <Label prefHeight="19.0" prefWidth="169.0" text="Paragraph Translator" textFill="WHITE" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="15.0" />
+                    </font>
+                </Label>
+            </center>
+            <right>
+                <Pane prefHeight="31.0" prefWidth="81.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <ImageView fitHeight="40.0" fitWidth="21.0" layoutX="55.0" layoutY="6.0" onMouseClicked="#closeWindow" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/close.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+                </Pane>
+            </right>
+         <left>
+            <Pane prefHeight="32.0" prefWidth="117.0" BorderPane.alignment="CENTER" />
+         </left>
+         <bottom>
+            <BorderPane prefHeight="46.0" prefWidth="666.0" style="-fx-background-color: #1E88E5;" BorderPane.alignment="CENTER">
+               <left>
+                  <StackPane prefHeight="46.0" prefWidth="307.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="slLabel" text="English" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+               </left>
+               <right>
+                  <StackPane prefHeight="46.0" prefWidth="327.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label fx:id="tlLabel" text="Vietnamese" textFill="WHITE">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </StackPane>
+               </right>
+               <center>
+                  <ImageView fitHeight="25.0" fitWidth="26.0" onMouseClicked="#swapLang" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../img/swap.png" />
+                     </image>
+                  </ImageView>
+               </center>
+            </BorderPane>
+         </bottom>
+        </BorderPane>
+    </top>
+   <left>
+      <TextArea fx:id="inputText" prefHeight="236.0" prefWidth="323.0" promptText="Type in here...." style="-fx-padding: 9;" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <TextArea fx:id="outputText" prefHeight="236.0" prefWidth="342.0" promptText="Result here..." style="-fx-padding: 9;" BorderPane.alignment="CENTER" />
+   </right>
+   <bottom>
+      <VBox prefHeight="70.0" prefWidth="576.0" style="-fx-padding: 0 9;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="recordBtn" mnemonicParsing="false" onAction="#speakAPI" prefHeight="46.0" prefWidth="53.0">
+                     <graphic>
+                        <ImageView fx:id="micLoad" fitHeight="27.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/microphone.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button cancelButton="true" mnemonicParsing="false" onMouseClicked="#transaltor" prefHeight="46.0" prefWidth="531.0" styleClass="translate" text="Translate">
+                     <HBox.margin>
+                        <Insets left="6.0" right="6.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#speak" prefHeight="46.0" prefWidth="52.0">
+                     <graphic>
+                        <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/speak-i.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <BorderPane prefHeight="27.0" prefWidth="648.0">
+               <right>
+                  <Label text="Powered by Google Translate" textFill="#6f6f6f" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="System Italic" size="13.0" />
+                     </font>
+                  </Label>
+               </right>
+            </BorderPane>
+         </children>
+      </VBox>
+   </bottom>
+   <center>
+      <ImageView fitHeight="41.0" fitWidth="45.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

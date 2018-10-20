@@ -1,0 +1,12 @@
+community	cong dong
+doctor	bac si
+consecutive	lien tuc
+hanoi	hanoi
+community	cong dong
+worker	nguoi cong nhan
+farmer	nguoi nong dan
+Transformation	chuyen doi
+degeneration	u bien chat
+distinguish	phan biet
+individually	rieng le
+constructor	trinh khoi tao
